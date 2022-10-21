@@ -1,0 +1,14 @@
+[package]
+name = "nrf52_bm_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.release]
+codegen-units   = 1
+debug           = true
+incremental     = false
+lto             = true
+opt-level       = 's'
+panic           = "abort"
