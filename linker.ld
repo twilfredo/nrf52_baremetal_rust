@@ -1,12 +1,6 @@
 /*
-    NOTE: This linker script has been provided only for the purpose of
-    demonstration within this blog post. It is not meant to be a template
-    of a general purpose linker script, and may omit items necessary
-    for an application.
-
-    It is recommended that you use or refer to the linker script provided
-    by the `cortex-m-rt` crate, which is the basis of the items included
-    below.
+    Reference linker file, incomplete!
+    Ref: https://github.com/ferrous-systems/zero-to-main/blob/master/from-scratch/linker.ld
 */
 
 MEMORY

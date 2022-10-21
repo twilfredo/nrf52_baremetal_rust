@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+cxx = { path = "/home/twilfred/wdc/cxx_dvl/cxx", default-features = false, features = ["c++14"] }
+
+[build-dependencies]
+cxx-build = "1.0"
 
 [profile.release]
 codegen-units   = 1
