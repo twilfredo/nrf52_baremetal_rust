@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Auth: Wilfred MK
-# Purpose: To build the baremetal code and to flasg it to an nrf52 target
-#          and to jump to the resetvector. 
+# Purpose: To build the baremetal code, flash it to a nrf52 target
+#          and to then jump to the reset vector. 
 if [ $1 == "run" ]
     then
     cargo rustc -- -C link-arg=--script=linker.ld
